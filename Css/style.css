@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;600&display=swap');
+header div{
+    color: #B22EF5;
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    padding: 16px  50px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+}
+body{
+    margin: 0;
+}
+.menu{
+    list-style-type: none;
+    width: 100%;
+    display: table;
+    padding: 20px 0px;
+    margin-bottom: 0px; 
+    background-color: #B22EF5;
+}
+
+.menu li{
+    display: table-cell;
+}
+.menu li a {
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li a span{
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.menu li a span:hover{
+    background-color: #770493;
+}
+main #banner{
+    background-image: url('../dogs/background.png');
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+h1{
+    margin: 0px;
+    color:#ffffff;
+    font-size: 36px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+
+}
+
+/*PROPIEDADES DEL CARD*/
+h2{
+    color: #B22EF5;
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+main #card img{
+    display: flex;
+    width: 255px;
+    height: 255px; 
+}
+
+div{
+    padding-left: 30px;
+}
+
+p{
+    font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    margin: 2px 0px 0px 0px;
+}
+
+ul li {
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin-top: 3px;
+}
+
+.img{
+    display: flex;
+    padding-left: 33px;
+}
+
+/* ESTILOS DEL FOOTER  */
+footer{
+    height: 70px;
+    background-color: #f2baba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
